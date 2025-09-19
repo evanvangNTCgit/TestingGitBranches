@@ -19,7 +19,8 @@
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <Button Content="This is the first commit button" HorizontalAlignment="Center" VerticalAlignment="Center" Height="125" Width="180" Click="Button_Click"/>
+            <Button Content="This is the first commit button" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click"/>
+            <Button x:Name="momButton" Grid.Column="1" Grid.Row="0" Content="Button for Mom" Click="momButton_Click"/>
         </Grid>
 
     </Grid>
