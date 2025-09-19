@@ -25,5 +25,11 @@ namespace TestingGitBranches
         {
             MessageBox.Show("Hi this button was made in the first commit! \n This project was made by Evan for him to learna about git branches!");
         }
+
+        private void momButton_Click(object sender, RoutedEventArgs e)
+        {
+            var evansImageWindow = new EvansImage();
+            evansImageWindow.Show();
+        }
     }
 }
