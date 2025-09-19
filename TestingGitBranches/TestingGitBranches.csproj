@@ -8,4 +8,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="NewPFP-Photoroom.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="NewPFP-Photoroom.png" />
+  </ItemGroup>
+
 </Project>
