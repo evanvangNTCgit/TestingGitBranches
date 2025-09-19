@@ -31,5 +31,10 @@ namespace TestingGitBranches
             var evansImageWindow = new EvansImage();
             evansImageWindow.Show();
         }
+
+        private void evansAge_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show($"Evans Current Age: {DateTime.Now.Year - 2005}");
+        }
     }
 }
