@@ -31,5 +31,12 @@ namespace TestingGitBranches
             var evansImageWindow = new EvansImage();
             evansImageWindow.Show();
         }
+
+        private void evansAge_Click(object sender, RoutedEventArgs e)
+        {
+            // Alright Its been tested... It works not much room for error
+            // Okay a note from the development branch: We like the changes made here.
+            MessageBox.Show($"Evans Current Age: {DateTime.Now.Year - 2005}");
+        }
     }
 }
