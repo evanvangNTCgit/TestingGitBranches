@@ -34,8 +34,8 @@ namespace TestingGitBranches
 
         private void evansAge_Click(object sender, RoutedEventArgs e)
         {
-            // Alright Its been tested... It works not much room for error
-            // Okay a note from the development branch: We like the changes made here.
+            // And as per the testing branch everything is going okay. We see no edge cases as of 9/19.
+            // Alright as per the development branch everything is alright.
             MessageBox.Show($"Evans Current Age: {DateTime.Now.Year - 2005}");
         }
     }
